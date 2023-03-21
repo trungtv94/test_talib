@@ -37,6 +37,6 @@ lib = CDLL("/home/appuser/lib/libta_lib.so.0.0.0")
 try:
     import talib
 except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "--global-option=build_ext", "--global-option=-L/home/appuser/lib/", "--global-option=-I/home/appuser/include/", "ta-lib"])
+    subprocess.check_call([sys.executable, "-m", "pip3", "install", "--global-option=build_ext", "--global-option=-L/home/appuser/lib/", "--global-option=-I/home/appuser/include/", "ta-lib"])
 finally:
     import talib

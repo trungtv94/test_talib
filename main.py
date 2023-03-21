@@ -26,7 +26,7 @@ if not os.path.isdir("/tmp/ta-lib"):
     # install
     os.system("make install")
     # back to the cwd
-    os.system("pip insall TA-Lib=0.4.0")
+    os.system("pip install TA-Lib=0.4.0")
     os.chdir(default_cwd)
     sys.stdout.flush()
 

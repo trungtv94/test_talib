@@ -40,4 +40,4 @@ if not os.path.isdir("/tmp/ta-lib"):
 #except ImportError:
 #    subprocess.check_call([sys.executable, "-m", "pip3", "install", "--global-option=build_ext", "--global-option=-L/home/appuser/lib/", "--global-option=-I/home/appuser/include/", "ta-lib"])
 #finally:
-import talib
+import ta-lib
